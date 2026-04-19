@@ -2,7 +2,7 @@
 // 1. הגדרות
 $target_dir = "";
 $message = "";
-$correct_password = "dwr8khux"; // שנה את הסיסמה כאן
+$correct_password = ""; // שנה את הסיסמה כאן
 
 if (!is_dir($target_dir)) {
     mkdir($target_dir, 0755, true);
